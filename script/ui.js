@@ -14,10 +14,9 @@ UI.prototype.addTaskToUI = function(newTask){
     `
 }
 
-UI.prototype.clearInputs = function(element1, element2, element3){
+UI.prototype.clearInputs = function(element1, element2){
     element1.value = "";
     element2.value = "";
-    element3.value = "";
 }
 
 UI.prototype.displayMessages = function(type, message){
@@ -46,8 +45,8 @@ UI.prototype.loadAllTasks = function(tasks){
     tasks.forEach(function(task){
         taskList.innerHTML +=`
         <tr>
-            <td>${newTask.name}</td>
-            <td>${newTask.details}</td>
+            <td>${Task.name}</td>
+            <td>${Task.details}</td>
             <td>
                 <a href="#" class="btn btn-danger" id="delete-task">Delete</a>
             </td>
