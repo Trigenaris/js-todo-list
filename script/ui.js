@@ -45,8 +45,8 @@ UI.prototype.loadAllTasks = function(tasks){
     tasks.forEach(function(task){
         taskList.innerHTML +=`
         <tr>
-            <td>${Task.name}</td>
-            <td>${Task.details}</td>
+            <td>${task.name}</td>
+            <td>${task.details}</td>
             <td>
                 <a href="#" class="btn btn-danger" id="delete-task">Delete</a>
             </td>
