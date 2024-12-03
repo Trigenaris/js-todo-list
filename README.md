@@ -42,7 +42,7 @@ And deleting a task is like this:
 
 [todo-list-delete.webm](https://github.com/user-attachments/assets/ef36bf07-2044-4990-a8e3-e0c9bd929d21)
 
-===
+---
 
 ### Local Storage
 
